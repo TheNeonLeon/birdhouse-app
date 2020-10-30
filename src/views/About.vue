@@ -38,6 +38,10 @@ export default {
 body {
   background-color:  $primary-background-colour
 }
+h1{
+  color: $primary-title-colour;
+  font-size: 64px;
+}
 .box-left{
   display: flex;
   flex-direction: row;
@@ -67,8 +71,8 @@ body {
 .about-box{
   width: 639px;
   height: 546px;
-  background: #26753C;
-  color: #F79A65;
+  background: $primary-footer-colour;
+  color: $primary-bread-colour;
   border-radius: 39px;
   padding: 2rem;
   margin: 1rem;
