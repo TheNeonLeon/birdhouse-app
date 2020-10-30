@@ -8,6 +8,7 @@
 <script>
 // @ is an alias to /src
 import Welcome from '@/components/Welcome.vue'
+import '@/styles/base.sass'
 
 export default {
   name: 'Home',
@@ -17,8 +18,14 @@ export default {
 }
 </script>
 
-<style>
-body{
-  background: #4FF77E;
+<style lang="scss">
+@import '../styles/base.sass'
+
+body {
+  background-color
+}
+
+body {
+  background-color:  $primary-background-colour 
 }
 </style>
