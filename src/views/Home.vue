@@ -19,13 +19,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/base.sass'
+@import '../styles/base.sass';
 
 body {
-  background-color
-}
-
-body {
-  background-color:  $primary-background-colour 
+  background-color: $primary-background-colour
 }
 </style>
