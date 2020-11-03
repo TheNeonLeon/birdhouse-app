@@ -7,14 +7,10 @@
 
 <script>
 // @ is an alias to /src
-import Welcome from '@/components/Welcome.vue'
 import '@/styles/base.sass'
 
 export default {
-  name: 'Home',
-  components: {
-    Welcome
-  }
+  name: 'Home'
 }
 </script>
 
