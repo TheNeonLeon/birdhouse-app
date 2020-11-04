@@ -5,6 +5,10 @@
 </template>
 
 <style lang="scss">
+body {
+  margin: 0px;
+  margin: 0px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +18,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding:0px;
 
   a {
     font-weight: bold;
