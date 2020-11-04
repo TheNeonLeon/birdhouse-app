@@ -27,6 +27,7 @@ export default {
 header {
   border: 1px solid yellow;
   grid-column: 1/8;
+  background-color: $primary-footer-colour;
 }
 
 .home {
@@ -44,11 +45,12 @@ header {
 }
 
 .logo {
-  width: 100%;
+  max-width: 100%;
 }
 footer {
   border: 1px solid brown;
-  grid-row: 12/13;
+  grid-row: 14/14;
   grid-column: 1/8;
+  background-color: $primary-footer-colour;
 }
 </style>
